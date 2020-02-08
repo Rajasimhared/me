@@ -5,9 +5,10 @@ cache:
   directories:
   - node_modules
 script:
-  - npm run gh-pages -b master -d build
+  - npm run build
 deploy:
   provider: pages
+  target-branch: master
   skip_cleanup: true
   github_token: $github_token
   local_dir: build
