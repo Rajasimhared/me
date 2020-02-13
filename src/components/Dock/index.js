@@ -8,8 +8,8 @@ const Dock = ({ data }) => (
         {data.map(value => (
           <li>
             <span>{value.name}</span>
-            <a href="#">
-              <img src={value.imageURL} />
+            <a href="https://rajareddy.online/">
+              <img src={value.imageURL} alt="img" />
             </a>
           </li>
         ))}
