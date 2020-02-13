@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       Work in progress...
-    <Dock data={DockData}/>
+      <Dock data={DockData}/>
     </div>
   );
 }
