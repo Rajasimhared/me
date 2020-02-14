@@ -11,7 +11,7 @@
   height: 100vh;
   width: 75%;
   object-fit: contain;
-  background: url("/RR.jpg") no-repeat center center;
+  background: url("./RR.JPG") no-repeat center center;
   background-size: cover;
   -webkit-box-reflect: right 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0, transparent), to(rgba(255, 255, 255, 0.3)));
 }
